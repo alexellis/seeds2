@@ -18,17 +18,15 @@ $ sudo pip install -r requirements.txt
 
 * Update your access keys
 
-Now add your Twitter keys into a config.py file:
+Now add your Twitter keys into the config.py file:
 
-```
-config = {"ckey": "", "csecret": "", "akey": "", "asecret": "", "working_directory": "./", "image_quality": 35 , "tweet": True}
-```
-
-> For testing without Tweeting you can set `tweet` to `False` in the `config.py` file.
+> For testing without Tweeting you can set `enabled` to `False` in the `twitter` section of `config.py`.
 
 * Get the Roboto font from:
 
 https://material.io/guidelines/resources/roboto-noto-fonts.html
+
+* To enable timelapse set `timelapse` to `True` in `config.py`.  This will create a series of timestamped images in the `images` directory which can later be combined to create a video.
 
 * For scheduling the code - use `cron` and this entry:
 
@@ -36,5 +34,4 @@ https://material.io/guidelines/resources/roboto-noto-fonts.html
 */10 08-20 * * * /home/pi/seeds2/seed-it.sh
 ```
 
-That runs once every 10 minutes between 8am and 8pm.
-
+That runs once every 10 minutes between 8am and 8:50pm.
