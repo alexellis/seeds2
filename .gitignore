@@ -1,5 +1,6 @@
-config.py
+roboto
 *.pyc
 *.jpg
 *.ttf
-
+config.py
+seed-it.sh
