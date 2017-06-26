@@ -40,5 +40,5 @@ if(__name__=="__main__"):
 
     if config["tweet"] == True:
         tweeter = Tweeter(config, tweepy)
-        tweeter.send(filename, "Internet of Seeds Mark II")
+        tweeter.send(filename, "Internet of Seeds Mark II - https://github.com/alexellis/seeds2")
 
