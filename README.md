@@ -38,3 +38,26 @@ https://material.io/guidelines/resources/roboto-noto-fonts.html
 
 That runs once every 10 minutes between 8am and 8pm.
 
+### Docker
+
+If you want to save time you can run the code through Docker. A Dockerfile is included in the repo.
+
+* Building
+
+```
+docker build -t alexellis2/seeds2 .
+```
+
+* Running:
+
+```
+$ docker rm -f seeds2
+$ docker run --privileged --name seeds2 -v `pwd`/config.py:/root/seeds2/config.py -ti alexellis2/seeds2
+```
+
+If you want to extract the image you can do it like this:
+
+```
+$ cd /home/pi
+$ docker cp seeds2:/root/seeds2/image.jpg image.jpg
+```
