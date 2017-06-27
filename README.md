@@ -1,7 +1,9 @@
 seeds2
 =======
 
-> A Python application for live tweeting photos of your seeds
+seeds2 is a Python application that you can use to keep track of your seeds or plants growing on Twitter. It is a reboot of the [Internet of Seeds project by Pimoroni in 2016](http://blog.pimoroni.com/the-internet-of-seeds/). 
+
+There's a supporting blog post here for background info - http://blog.alexellis.io/iot-growbox/
 
 ![Live Tweet](https://pbs.twimg.com/media/DCTmumnWsAQne4I.jpg:medium)
 
