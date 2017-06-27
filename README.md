@@ -40,7 +40,7 @@ That runs once every 10 minutes between 8am and 8pm.
 
 ### Docker
 
-If you want to save time you can run the code through Docker. A Dockerfile is included in the repo.
+If you want to save time you can run the code through Docker. A [Dockerfile](https://github.com/alexellis/seeds2/blob/master/Dockerfile) is included in the repo.
 
 * Building
 
